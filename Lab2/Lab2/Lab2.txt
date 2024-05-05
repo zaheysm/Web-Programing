@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <time>ELEMENTS OF HTML5</time>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <ol>
+            <li>Heading element
+                <ul>
+                    <li>Syntax</li>
+                       <xmp>
+                        <h1> Heading Level 1</h1>
+                        <h2> Heading Level 2</h2>
+                        <h3> Heading Level 3</h3>
+                       </xmp>
+                    <li>Ouput</li>
+                    <h1> Heading Level 1</h1>
+                    <h2> Heading Level 2</h2>
+                    <h3> Heading Level 3</h3>
+                </ul>
+            </li>
+            <hr>
+            <li>Paragraph element
+                <ul>
+                    <li>Syntax</li>
+                    <xmp>
+                        <p>Here is the text that is going to be inside the Paragraph</p>
+                    </xmp>
+                    <li>Output</li>
+                    <p>Here is the text that is going to be inside the Paragraph</p>
+                </ul>
+            </li>
+            <hr>
+            <li>Line Break element
+                <ul>
+                    <li>Syntax</li>
+                    <xmp>
+                        line1<br>
+                        line2<br>
+                        line3<br>
+                    </xmp>
+                        
+                    <li>Output<br>
+                        line1<br>
+                        line2<br>
+                        line3<br>
+                    </li>
+                </ul>
+            </li>
+            <hr>
+            <li>Blockquote element
+                <ul>
+                    <li>Syntax</li>
+                    <xmp>
+                        <blockquote>in here goes the block kquote that you need to quote in you text</blockquote>
+                    </xmp>
+
+                    <li>Output</li>
+                    <blockquote>in here goes the block kquote that you need to quote in you text</blockquote>
+
+                </ul>
+            </li>
+            <hr>
+            <li>All Phrase elements
+                <ul>
+                    <li>Syntax</li>
+                    <xmp>
+                        <b> in bold text</b><br>
+                        <em> in emphasized text</em><br>
+                        <i> in italicized text</i><br>
+                        <mark> in mark text</mark><br>
+                        <small> in small text</small><br>
+                        <strong> in strong text</strong><br>
+                        <sub> in sub text</sub><br>
+                        <sup> in sup text</sup>
+                    </xmp>
+                    <li>Output</li>
+                    <b> in bold text</b><br>
+                    <em> in emphasized text</em><br>
+                    <i> in italicized text</i><br>
+                    <mark> in mark text</mark><br>
+                    <small> in small text</small><br>
+                    <strong> in strong text</strong><br>
+                    <sub> in sub text</sub><br>
+                    <sup> in sup text</sup>
+                </ul>
+
+            </li>
+            <hr>
+            <li>Lists
+                <ul>
+                    <li>a)Lists unordered</li>
+                        <ul>
+                            <li>Syntax</li>
+                            <xmp>
+                                <ul>
+                                    <li>example a</li>
+                                    <li>example b</li>
+                                </ul>
+                            </xmp>
+                            
+                            <li>Output</li>
+                            <li>example a</li>
+                            <li>example b</li>
+                        </ul>
+                    <li>b)Lists ordered</li>
+                    <ul>
+                        <li>Syntax</li>
+                        <xmp>
+                        <ol>
+                            <li>example a</li>
+                            <li>example b</li>
+                        </ol>
+                    </xmp>
+                        <li>Output</li>
+                        <ol>
+                            <li>example a</li>
+                            <li>example b</li>
+                        </ol>
+                    </ul>
+                    <li>c)Description Lists</li>
+                    <ul>
+                        <li>Syntax</li>
+                        <xmp>
+                            <dl>
+                                <dt>Triangle</dt>
+                                    <dd>Pyramide</dd>
+                                <dt>Square</dt>
+                                    <dd>Cube</dd>
+                            </dl>
+                        </xmp>
+                        <li>Output</li>
+                            <dl>
+                                <dt>Car</dt>
+                                    <dd>Toyota Corolla</dd>
+                                <dt>Suv</dt>
+                                    <dd>Toyota Rav4</dd>
+                            </dl>
+                    </ul>
+                </ul>
+            </li>
+            <hr>
+            <li>Special characters
+                <ul>
+                    <li>Syntax</li>
+                          <ul>
+                            <li><xmp>CopyRights &copy;</xmp></li>
+                            <li><xmp>Less Than &lt;</xmp></li>
+                            <li><xmp>Greater Than &gt;</xmp></li>
+                            <li><xmp>Ampersand &amp;</xmp></li>
+                          </ul> 
+                    <li>Output</li>
+                            <ul>
+                                <li>CopyRights &copy;</li>
+                                <li>Less Than &lt;</li>
+                                <li>Greater Than &gt;</li>
+                                <li>Ampersand &amp;</li>
+                            </ul>
+                </ul>
+            </li>
+            <hr>
+            <li>Anchors element
+                <ol type="a">
+                    <li>Absolute link</li>
+                    <ul>
+                        <li>Syntax</li>
+                        <xmp>
+                            <a href="http://www.google.com">This link for Google Website</a>
+                        </xmp>
+                        
+                        <li>Output</li>
+                        <a href="http://www.google.com">This link for Google Website</a>
+                    </ul>
+                    <li>Relative link</li>
+                    <ul>
+                        <li>Syntax</li>
+                        <xmp>
+                            <a href="index.html">This link for lab1 Website</a>
+                        </xmp>
+                        <li>Output</li>
+                        <a href="index.html">This link for lab1 Website</a>
+                    </ul>
+                    <li>E-MAIL HYPERLIN</li>
+                    <ul>
+                        <li>Syntax</li>
+                        <xmp>
+                            <a href="mailto:masa0019@algonquinlive.com">This link for my algonquin email</a>
+                        </xmp>
+                        <li>Output</li>
+                        <a href="mailto:masa0019@algonquinlive.com">This link for my algonquin email</a>
+                    </ul>
+                </ol>
+            </li>
+            <hr>
+            <li>Meter elemen
+                <ul>
+                    <li>Syntax</li>
+                    <xmp>
+                        <meter value="100" min="0" max="100">100</meter>
+                        <meter value="50" min="0" max="100">50</meter>
+                        <meter value="10" min="0" max="100">50</meter>
+                    </xmp>
+                    <li>Output</li>
+                    <meter value="100" min="0" max="100">100</meter>
+                    <meter value="50" min="0" max="100">50</meter>
+                    <meter value="10" min="0" max="100">50</meter>
+                </ul>
+
+            </li>
+            <hr>
+            <li>Progress element
+                <ul>
+                    <li>Syntax</li>
+                    <xmp>
+                        <progress value="700" max="1000">700</progress>
+                    </xmp>
+                    <li>Output</li>
+                    <progress value="700" max="1000">700</progress>
+                </ul>
+            </li>
+            <hr>
+            <li>Data list control
+                <ul>
+                    <li>Syntax</li>
+                    <xmp>
+                        <label for="Car">Fruit</label> 
+                            <input type="text" name="Car" id="Car" list="Cars" >
+                            <datalist id="Cars">
+                                <option value="Mazda">
+                                <option value="Toyota">
+                                <option value="Honda">
+                                <option value="Nissan">
+                        </datalist>
+                    </xmp>
+                    
+                    <li>Output</li>
+                        <label for="Car">Cars</label> 
+                            <input type="text" name="Car" id="Car" list="Cars" >
+                            <datalist id="Cars">
+                                <option value="Mazda">
+                                <option value="Toyota">
+                                <option value="Honda">
+                                <option value="Nissan">
+                        </datalist>
+                </ul>
+            </li>
+            <hr>
+            <li>Slider control
+                <ul>
+                    <li>Syntax</li>
+                    <xmp>
+                    <label for="Fun">
+                        Express Your mode between 1 and 10:</label><br>
+                        Mad <input type="range" name="Hunger" id="Hunger" min="1" 
+                        max="10"> Happy
+                    </xmp>
+                    <li>Output</li>
+                    <label for="Fun">
+                        Express Your mode between 1 and 10:</label><br>
+                        Mad <input type="range" name="Hunger" id="Hunger" min="1" 
+                        max="10"> Happy
+                </ul>
+            </li>
+            <hr>
+            <li>Calendar control
+                <ul>
+                <li>Syntax</li>
+                    <xmp>
+                        <label for="theDate">What day?</label>
+                        <input type="date" name="theDate" id="theDate"> 
+                    </xmp>
+                <li>Output</li>
+                    <label for="theDate">Date of birth</label>
+                    <input type="date" name="theDate" id="theDate">
+                </ul>
+            </li>
+        </ol>
+    </body>
+</html>

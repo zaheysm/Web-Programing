@@ -1,0 +1,131 @@
+@CHARSET "ISO-8859-1";
+
+body
+{
+	margin: 10px;
+	font-family: serif;
+}
+
+
+
+#header
+{
+    border-style: solid;
+	background-color: azure;
+	font-size: 17pt;
+    color: black;
+    width: 100%;
+    height: 150px;
+    text-align: center;
+}
+
+#menu 
+{
+    border-style: solid;
+    border-color: black;
+	word-spacing: 2em;
+	font-size: 10pt;
+    text-align: center;
+    background-color: azure;
+    position:absolute;
+    width: 200px;
+    float: left;
+    right: 4px;
+    top: 104px;
+	
+}
+
+#content
+{
+    margin-top: 10px;
+    border: solid;
+	font-size: 25pt;
+    height: 100%;
+    width: 100%;
+	text-align: left;
+    background-color: antiquewhite;
+	top: 185px;
+    display: table;
+}
+
+
+#footer 
+{
+    border: solid;
+    background-color: azure;
+    color: black;
+    clear: both;
+    text-align: center;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.first-class
+{
+    font-style:italic;
+    font: bold;
+    color: blue;
+    text-align:left;
+
+}
+
+#first-id{
+    font-size: large;
+    font-style: oblique;
+    color:blueviolet;
+}
+
+[title]{
+    border-bottom:dotted blue 2px;
+    cursor:ew-resize;
+    text-decoration: none;
+    padding-bottom: 2px;
+}
+
+a:link{
+    text-decoration: underline;
+    color: aqua;
+
+}
+a:visited{
+    text-decoration: underline;
+    color: palevioletred;
+}
+a:hover{
+    text-decoration: underline;
+    font-weight: bold;
+    color: brown;
+}
+ul a{
+    background-color: blueviolet;
+}
+#Contextual-selector p{
+    color: green;
+
+}
+
+
+img{
+    width: 300px;
+    height: 300px;
+
+}
+
+video{
+    width: 300px;
+    height: 300px;
+
+}
+table{
+    margin: 15px;
+    border: solid;
+    border-collapse: collapse;
+}
+
+    td{
+        border: solid;
+    }
+
+
+
+

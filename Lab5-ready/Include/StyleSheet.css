@@ -1,0 +1,38 @@
+body 
+{
+	margin: 0px 0px; 
+	padding: 0px;
+	text-align:center;
+}
+
+#header
+{
+	background-color: red;
+	width: 800px;	
+	height: 100px;
+	margin: 0px auto;
+	padding: 25px;
+ 	border: 1px solid black;
+}
+
+#content
+{
+	width: 800px;
+	height: 500px;
+	min-height: 500px;
+	margin: 0px auto;
+	padding: 25px;
+ 	border-left: 1px solid black;
+ 	border-right: 1px solid black;
+	text-align: left;
+}
+
+#footer
+{
+	background-color: orange;
+	width: 800px;
+	height: 100px;
+	margin: 0px auto;
+	padding: 25px;
+ 	border: 1px solid black;
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title> Calculate GCD </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>  
+  
+  <script type="text/javascript">
+
+  /*
+ * Returns the greatest common divisor (gcd) of the two integers,
+ * x and y.  This implementation of the "brute force" approach of
+ * counting down from the smaller value until the answer is found.
+ */
+function calculateGCD() {
+
+let x = prompt("Please enter the first number");
+   
+ if (isNaN(parseFloat(x))){
+	do {
+		x = prompt("You did not enter a number. Enter a number to continue.");
+	 } while (isNaN(parseFloat(x)));	
+ }
+ 
+ let y = prompt("Please enter the second number");
+   
+ if (isNaN(parseFloat(y))){
+	do {
+		y = prompt("You did not enter a number. Enter a number to continue.");
+	 } while (isNaN(parseFloat(y)));	
+ }
+    
+   let guess = Math.min(x, y);
+   while (x % guess !== 0 || y % guess !== 0) {
+      guess--;
+   }
+   
+   alert("The GCD of " + x + " and "+ y + " is " + guess);	
+   
+}
+  </script> 
+</head>
+<body>
+
+<div class="jumbotron text-center" style="margin-bottom:0">
+  <h1>Header</h1>
+  
+</div>
+
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-9">
+      <h1>This program calculates the GCD of two numbers. <br/>   
+	  Please click Calculate GCD! button.
+	  <br/> </h1> 
+	    <h3>
+	      <table>      
+        	<tr>
+			    <td><input onclick="calculateGCD()" name="btnCalculate" id="btnCalculate" value="Calculate GCD!" type="button"></td>				
+		    </tr>       
+          </table>
+	    </h3>
+    </div>
+    
+  </div>
+</div>
+
+<div class="jumbotron text-center" style="margin-bottom:0">
+  <p> <h1> Footer <h1> </p>
+</div>
+
+</body>
+</html>

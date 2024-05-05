@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title> Calculate Factorial </title>
+  <script src="JSConsole.js"></script>
+  
+  
+ <script type="text/javascript">
+
+  /*
+ * Calculates the factorial of a given number.
+ */
+function calculateFactorial() {
+
+let n = prompt("Please enter the number");
+   
+ if (isNaN(parseFloat(n))){
+	do {
+		n = prompt("You did not enter a number. Enter a number to continue.");
+	 } while (isNaN(parseFloat(n)));	
+ }
+ 
+  let result = 1 ;
+   for (let i=1; i<=n; i++) {
+      result=result*i;
+   }
+   
+   console.log("The Factorial of " + n + " is " +  result);	
+   
+}
+  </script> 
+</head>
+
+<body>
+      <h1>This program calculates the factorial of any number. <br/>   
+	  Please click Calculate Factorial! button.
+	  <br/> </h1> 
+	    <h3>
+	      <table>      
+        	<tr>
+			    <td><input onclick="calculateFactorial()" name="btnCalculate" id="btnCalculate" value="Calculate Factorial!" type="button"></td>				
+		    </tr>       
+          </table>
+	    </h3>
+    
+
+</body>
+</html>

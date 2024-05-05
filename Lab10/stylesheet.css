@@ -1,0 +1,58 @@
+body 
+{
+	margin: 0px 0px; 
+	padding: 0px;
+	text-align:center;
+}
+
+#header
+{
+	background-color: red;
+	width: 1200px;	
+	height: 100px;
+	margin: 0px auto;
+	padding: 25px;
+ 	border: 1px solid black;
+ 	
+}
+
+#content
+{
+	text-align:left;
+	width: 1200px;
+	height: 800px;
+	min-height: 500px;
+	margin: 0px auto;
+	padding: 25px;
+ 	border-left: 1px solid black;
+ 	border-right: 1px solid black;
+	overflow: scroll;
+}
+
+
+
+
+#footer
+{
+	background-color: orange;
+	width: 1200px;
+
+	margin: 0px auto;
+	padding: 25px;
+ 	border: 1px solid black;
+ 	float:bottom;
+}
+
+#Menu
+{
+	border: 1px solid black;
+	font-size: 15pt;
+    text-align: center;
+    background-color: azure;
+    position:absolute;
+    width: 350px;
+    height: 25px;
+    float: left;
+    right: 48px;
+    top: 125px;
+}

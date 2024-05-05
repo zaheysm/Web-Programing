@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title> Even Odd Tester </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>  
+  
+  <script type="text/javascript">
+
+  function TestEvenOdd() {
+   var number = prompt("Please enter a number");
+   
+   
+   if (isNaN(parseFloat(number))){
+	do {
+		number = prompt("You did not enter a number. Enter a number to continue.");
+	 } while (isNaN(parseFloat(number)));	
+   }
+    
+   if (number % 2 == 0){
+	  document.write (number + " is an even number");
+	 }
+	else {
+	  document.write (number + " is an odd number");
+	 }	
+   
+}
+  </script> 
+</head>
+<body>
+
+<div class="jumbotron text-center" style="margin-bottom:0">
+  <h1>Header</h1>
+  
+</div>
+
+
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-9">
+      <h1>This program determines whether a number is even or odd <br/>  <br/> <br/> </h1> 
+	    <h3>
+	      <script type="text/javascript">             
+			  TestEvenOdd();			  
+           </script>  
+	    </h3>
+    </div>
+    
+  </div>
+</div>
+
+<div class="jumbotron text-center" style="margin-bottom:0">
+  <p> <h1> Footer <h1> </p>
+</div>
+
+</body>
+</html>
